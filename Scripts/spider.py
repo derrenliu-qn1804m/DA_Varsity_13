@@ -1,7 +1,7 @@
 import scrapy
 class NewSpider(scrapy.Spider):
     name = "new_spider"
-    start_urls = ['http://192.168.1.1/index.html']
+    start_urls = ['http://172.18.58.238/varsity']
     def parse(self, response):
         xpath_selector = '//img'
         for x in response.xpath(xpath_selector):
