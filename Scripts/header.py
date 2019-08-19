@@ -2,7 +2,7 @@
 import requests
 
 #Url of the target
-url = "http://httpbin.org/headers"
+url = "http://172.18.58.238/index.php"
 
 #Get the full page onto r
 r = requests.get(url)
