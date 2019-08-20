@@ -2,7 +2,7 @@
 import requests
 
 #Url of the target
-url = "http://172.18.58.238/index.php"
+url = "http://172.18.58.238/headers.php"
 
 #Get the full page onto r
 r = requests.get(url)
